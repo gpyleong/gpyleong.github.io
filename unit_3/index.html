@@ -1,30 +1,97 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset=utf-8">
+	<meta charset="utf-8">
 	<title>GRACE LEONG</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<header>
+		<a href="#" class="logo">GRACE LEONG STUDIOS</a>
+		<nav>
+			<a href="#">Work</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</nav>
+	</header>
+	<section class="hero-image">
+		<h1>A multi-disciplinary creative studio based in Melbourne, Australia. We create all sorts of brand identities, packaging, digital collateral, artwork and patterns.</h1>
+ 	</section>
+	
+	<section id="Whatwedo">
+		<h2>WHAT WE DO</h2>
+		<hr>
+		<img src="images/diagramv2.jpg" alt="Image of diagram" title="diagram" id="diagramimage">
+	</section>
 
-	<ul class="nav">
+	<section id="Portfolio">
+		<h2>PORTFOLIO</h2>
+		<hr>
+		<p> Take a look at some of our recent work.
+	<div class="row"> 
+  		<div class="column">
+  			<center>
+    		<img src="images/stockimage1.jpeg" alt="stockimage1" title="stockimage1" id="stockimage1">
+    		<img src="images/stockimage2.jpeg" alt="stockimage2" title="stockimage1" id="stockimage2">
+    		<img src="images/stockimage3.jpeg" alt="stockimage3" title="stockimage1" id="stockimage3">
+    		<img src="images/stockimage4.jpeg" alt="stockimage4" title="stockimage1" id="stockimage4">
+    		</center>
+  		</div>
+  		<div class="column" >
+  			<center>
+    		<img src="images/stockimage5.jpeg" alt="stockimage5" title="stockimage5" id="stockimage5">
+    		<img src="images/stockimage6.jpeg" alt="stockimage6" title="stockimage6" id="stockimage6">
+    		<img src="images/stockimage7.jpeg" alt="stockimage7" title="stockimage7" id="stockimage7">
+    		<img src="images/stockimage8.jpeg" alt="stockimage7" title="stockimage8" id="stockimage8">
+    		</center>
+  		</div>  
+	</section>
 
-		<div class="logo">
-			<a href="#">GRACE LEONG STUDIOS</a>
-		</div>
+	<section id="Contactus">
+		<h2>CONTACT US</h2>
+		<hr>
+		<p> For enquiries, collaborations or just to say hi!
+		<div class="container">
+  		<form action="/action_page.php">
 
-		<li><a href="#">Work</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>
+    	<label for="fname">First Name</label>
+    	<input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-		<div class="hero-image">
-		<img class="hero-image" src="images/headerimage.jpeg">
-  			<div class="hero-text">
-   	 		<h1>A multi-disciplinary creative studio based in Melbourne, Australia. We create all sorts of brand identities, packaging, digital collateral, artwork and patterns.</h1>
+    	<label for="lname">Last Name</label>
+    	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-   	 	</div>
+    	<label for="country">Country</label>
+    	<select id="country" name="country">
+      		<option value="australia">Australia</option>
+      		<option value="canada">Canada</option>
+      		<option value="usa">USA</option>
+    	</select>
+
+    	<label for="subject">Subject</label>
+    		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    	<input type="submit" value="Submit">
+
+  </form>
+</div>
+	</section>
+
+	<section id="footer">
+
+		<a href="#">
+  			<img src="images/instagram.png" alt="instagram" style="width:30px;height:30px;border:0;">
+		</a>
+		<a href="#">
+  			<img src="images/facebook.png" alt="faecbook" style="width:30px;height:30px;border:0;">
+		</a>
+		<a href="#">
+  			<img src="images/email.png" alt="email" style="width:30px;height:30px;border:0;">
+		</a>
+
+	</section>
+
+
 
 </body>
-
 </html>
